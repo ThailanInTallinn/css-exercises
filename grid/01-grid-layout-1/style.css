@@ -12,6 +12,14 @@ html {
   display: grid;
   grid-template-columns: repeat(7, 100px);
   grid-template-rows: repeat(7, 50px);
+  grid-template-areas:
+    "Header Header Header Header Header Header Header"
+    "Sidebar Sidebar Nav Nav Nav Nav Nav"
+    "Sidebar Sidebar Article Article Article Article Article"
+    "Sidebar Sidebar Article Article Article Article Article"
+    "Sidebar Sidebar Article Article Article Article Article"
+    "Sidebar Sidebar Article Article Article Article Article"
+    "Footer Footer Footer Footer Footer Footer Footer";
 }
 
 .container div {
@@ -25,27 +33,27 @@ html {
 
 .header {
   background-color: #006157;
-  grid-area: "Header";
+  grid-area: Header;
 }
 
 .sidebar {
   background-color: #005b94;
-  grid-area: "sidebar";
+  grid-area: Sidebar;
 }
 
 .nav {
   background-color: #642cde;
-  grid-area: "nav";
+  grid-area: Nav;
 }
 
 .article {
   background-color: #7e1dc3;
-  grid-area: "article";
+  grid-area: Article;
 }
 
 .footer {
   background-color: #393f4d;
-  grid-area: "footer";
+  grid-area: Footer;
 }
 
 .article p {
