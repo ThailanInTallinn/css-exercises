@@ -10,16 +10,17 @@ html {
   padding: 16px;
   box-sizing: border-box;
   display: grid;
-  grid-template-columns: repeat(7, 100px);
-  grid-template-rows: repeat(7, 50px);
+  grid-template-columns: 300px 900px;
+  grid-template-rows: 150px 150px 750px 150px;
   grid-template-areas:
-    "Header Header Header Header Header Header Header"
-    "Sidebar Sidebar Nav Nav Nav Nav Nav"
-    "Sidebar Sidebar Article Article Article Article Article"
-    "Sidebar Sidebar Article Article Article Article Article"
-    "Sidebar Sidebar Article Article Article Article Article"
-    "Sidebar Sidebar Article Article Article Article Article"
-    "Footer Footer Footer Footer Footer Footer Footer";
+    "Header Header"
+    "Sidebar Nav"
+    "Sidebar Article"
+    "Sidebar Article"
+    "Sidebar Article"
+    "Sidebar Article"
+    "Footer Footer ";
+  gap: 15px;
 }
 
 .container div {
