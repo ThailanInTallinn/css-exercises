@@ -23,22 +23,27 @@ html {
 
 .header {
   background-color: #006157;
+  grid-area: "Header";
 }
 
 .sidebar {
   background-color: #005b94;
+  grid-area: "sidebar";
 }
 
 .nav {
   background-color: #642cde;
+  grid-area: "nav";
 }
 
 .article {
   background-color: #7e1dc3;
+  grid-area: "article";
 }
 
 .footer {
   background-color: #393f4d;
+  grid-area: "footer";
 }
 
 .article p {
